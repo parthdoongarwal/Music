@@ -8,21 +8,21 @@ let count = 0;
 
 const data = [
   {
-    img: "//Cindrella.jpg",
+    img: "Cindrella.jpg",
     name: "Full『Cinderella』by",
-    url: "//[MP3FY] Komi-san Can't Communicate - Opening Full『Cinderella』by Cidergirl.mp3",
+    url: "[MP3FY] Komi-san Can't Communicate - Opening Full『Cinderella』by Cidergirl.mp3",
   },
 
   {
-    img: "//Cradles.jpg",
+    img: "Cradles.jpg",
     name: "Cradles",
-    url: "//[MP3FY] Sub Urban - Cradles [Official Music Video].mp3",
+    url: "[MP3FY] Sub Urban - Cradles [Official Music Video].mp3",
   },
 
   {
     img: `ErasedEn.jpg`,
     name: "Erased ending song",
-    url: `[MP3FY] Sayuri - Sore wa Shiisana Hikari no Youna _ Boku Dake Ga Inai Machi (ERASED) FULL ENDING.mp3`,
+    url: '[MP3FY] Sayuri - Sore wa Shiisana Hikari no Youna _ Boku Dake Ga Inai Machi (ERASED) FULL ENDING.mp3',
   },
 
   {
@@ -65,5 +65,6 @@ function Previus() {
   audioEl.src = data[count].url;
   audioEl.play();
 }
+
 
 
